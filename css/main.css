@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cardo&family=Inter&family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+    gap: 42px;
+    justify-content: center;
+}
+button{
+    padding: 15px 40px;
+    background: #111111;
+    border-radius: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+input{
+    width: 1104px;
+    height: 61px;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+
+.result{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.11);
+    border-radius: 14px;
+    width: 1308px;
+    height: 537px;
+    margin: 0 auto;
+    margin-top: 60px;
+    opacity: 0;
+}
+.translation{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    padding-top: 37px;
+    margin-left: 32px;
+}
+.definition{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-top: 23px;
+    margin-left: 32px;
+}
+.example{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-top: 24px;
+    padding-left: 64px;
+}
+.second-definiton{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-top: 34px;
+    margin-left: 38px;
+}
+.second-example{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-top: 29px;
+    margin-left: 67px;
+}
+.third-definition{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-top: 30px;
+    margin-left: 41px;
+}
+audio{
+    margin-top: 41px;
+    margin-left: 45px;
+    font-size: 25px;
+}
+
+h1{
+    text-align: center;
+}
